@@ -72,6 +72,7 @@ fab development deploy
 ```
 
 13. Si desea desplegar la aplicación en un entorno de producción vaya al fichero fabfile.py y añada un método como este
+
 *cambie los credenciales por lo de su entorno remoto*
 ```
 @task
@@ -117,18 +118,21 @@ docker ps
 ```
 
 21. Si quiere parar el contenedor activo 
+
 *Cambie 'sharp_mendeleev' por el nombre que le muestra en el campo NAMES con el comando docker ps*
 ```
 docker stop sharp_mendeleev
 ```
 
 22. Para reiniciarlo 
+
 *Cambie 'sharp_mendeleev' por el nombre que le muestra en el campo NAMES con el comando docker ps*
 ```
 docker restart sharp_mendeleev
 ```
 
 23. para eliminarlo
+
 *Cambie 'sharp_mendeleev' por el nombre que le muestra en el campo NAMES con el comando docker ps*
 ```
 docker rm sharp_mendeleev
